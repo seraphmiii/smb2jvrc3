@@ -14522,7 +14522,7 @@ PrincessCHRLoop:
 	lda ($00),y            ;copy byte from ROM
 	sta PPU_DATA           ;store to PPU
 	iny
-      cpy #$64
+        cpy #64
 	bne PrincessCHRLoop    ;loop until all CHR data is finished
       jmp LoadMainBank       ;load main bank afterwards
 
