@@ -6,4 +6,5 @@ The source code compiles with asm6, provided in the repo. If using Windows, the 
 
 ### Credits
 SeraphmIII - Ported Simplistic6502's MMC1 codebase to VRC3
+
 Simplistic6502 - Created MMC1 codebase and implemented IRQ handling for VRC3
